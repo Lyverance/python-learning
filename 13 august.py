@@ -7,3 +7,10 @@ print('p', 'q', 'r', sep='1', end='%')
 print('s', 't', 'u', sep='&', end='\n')
 print('v', 'w', 'x', sep='%')
 print('y', 'z', sep='/', end='!')
+
+delimiter = input()
+str1 = input()
+str2 = input()
+str3 = input()
+
+print(str1, str2, str3, sep=delimiter)
