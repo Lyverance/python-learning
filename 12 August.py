@@ -15,3 +15,15 @@ b.append(4)
 print("\nСценарий с копией:")
 print("a:", a)
 print("b:", b)
+
+# Вариант 1: через два print()
+print("Привет")
+print("Мир")
+
+# Вариант 2: через один print() и символ \n
+print("Привет\nМир")
+print("A\n\nB")
+
+delimiter = '/'
+print('a', 'b', sep=delimiter, end='+')
+print('c', 'd', sep='*', end=delimiter)

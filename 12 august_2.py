@@ -8,3 +8,14 @@ print("Результирующий список:", numbers)
 
 name = input()
 print("Привет,", name)
+
+while True:
+    name = input()
+    print("Привет,", name)
+
+# Вариант 1: через два print()
+print("Привет")
+print("Мир")
+
+# Вариант 2: через один print() и символ \n
+print("Привет\nМир")
