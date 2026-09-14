@@ -1,9 +1,2 @@
-name = input('Введите ваше имя: ')
-city = input()
-
-print('Привет,', name)
-print('Ты из города', city, '!')
-
-delimiter = '/'
-print('a', 'b', sep=delimiter, end='+')
-print('c', 'd', sep='*', end=delimiter)
+a = 82 // 3**2 % 7
+print(a)
